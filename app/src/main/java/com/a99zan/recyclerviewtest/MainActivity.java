@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * 初始化控件
+     */
     private void init() {
         recyclerView = (RecyclerView) findViewById(R.id.recy);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
